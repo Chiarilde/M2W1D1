@@ -1,5 +1,4 @@
-let celsius = 20;
+let celsius = prompt("Inserisci i gradi Celsius:");
+celsius = parseFloat(celsius);
 let conversionToF = (celsius * 9) / 5 + 32;
-console.log(
-    celsius + " gradi Celsius sono " + conversionToF + " gradi Fahrenheit"
-);
+alert(celsius + " gradi Celsius sono " + conversionToF + " gradi Fahrenheit");
